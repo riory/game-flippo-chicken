@@ -12,9 +12,7 @@ public class LogicScript : MonoBehaviour {
     public AudioSource asBackground;
     public AudioSource asGameOver;
 
-    private float timer = 0;
-    private float fadeSec = 1;
-
+    
     public bool isGameOver { get; private set; }
     private bool gameOverSoundStarted = false;
 
